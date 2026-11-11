@@ -114,3 +114,14 @@ th {
 td {
     text-align: center;
 }
+/* Forma geometrica SVG */
+.cuore {
+    display: block;
+    margin: 10px auto;
+    transition: transform 0.5s;
+}
+
+/* Animazione al passaggio del mouse */
+.cuore:hover {
+    transform: scale(1.3);
+}
